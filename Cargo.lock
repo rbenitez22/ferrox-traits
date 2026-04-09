@@ -7,13 +7,13 @@ name = "ferrox-traits"
 version = "0.1.0"
 
 [[patch.unused]]
-name = "auth-client"
-version = "0.2.0"
+name = "ferrox-webapp-macros"
+version = "0.1.0"
 
 [[patch.unused]]
 name = "webapp-lib"
 version = "0.1.0"
 
 [[patch.unused]]
-name = "ferrox-webapp-macros"
-version = "0.1.0"
+name = "auth-client"
+version = "0.2.0"

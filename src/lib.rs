@@ -24,3 +24,16 @@ pub trait HasId {
 pub trait HasName {
     fn get_name(&self) -> String;
 }
+
+// ---------------------------------------------------------------------------
+// HasParentId
+//
+// Identifies a type that belongs to an optional parent, referenced by id.
+//
+// Derive with #[derive(HasParentId)]. Defaults to a field named `parent_id`.
+// Override with #[has_parent_id(field = "other_field")].
+// ---------------------------------------------------------------------------
+
+pub trait HasParentId {
+    fn get_parent_id(&self) -> Option<String>;
+}
